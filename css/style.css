@@ -326,44 +326,41 @@ input:focus,
 
 /* Header */
 
-.site-header {
-    background-color: #2e2e2e;
-    height: 130px;
+.site-header, .page-header {
+    border-bottom: 1px solid #ebeef0;
+    margin-bottom: 40px;
+    padding: 60px 0 30px;
 }
 
-.site-header h1 {
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+#site-branding .site-title {
+    color: #0091c0;
+    display: inline-block;
+    float: right;
+    font-family: 'Dynalight',cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: -.5px;
+    line-height: 48px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
 }
 
-
-/* Navigation */
-
-.main-navigation {
+.site-logo {
+    border: 2px solid #ebeef0;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #aaa;
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    overflow: hidden;
 }
 
-.main-navigation ul {
-}
-
-.main-navigation li {
-}
-
-.main-navigation li a {
-}
-
-.main-navigation .sub-menu {
-    opacity: 0;
-    transform: translate(0, 10%);
-    transition: all 0.3s;
-    visibility: hidden;
-    -webkit-transform: translate(0,10%);
-    -webkit-transition: all 0.3s;
-}
-
-.main-navigation li:hover .sub-menu {
-    opacity: 1;
-    transform: translate(0, 0);
-    visibility: visible;
-    -webkit-transform: translate(0, 0);
+.site-logo img {
+    height: 48px;
+    width: 48px;
 }
 
 
