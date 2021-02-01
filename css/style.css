@@ -328,6 +328,7 @@ input:focus,
 
 .site-header, .page-header {
     border-bottom: 1px solid #ebeef0;
+    font-family: 'Dynalight',cursive;
     margin-bottom: 40px;
     padding: 60px 0 30px;
 }
@@ -336,7 +337,6 @@ input:focus,
     color: #0091c0;
     display: inline-block;
     float: right;
-    font-family: 'Dynalight',cursive;
     font-size: 40px;
     font-weight: lighter;
     letter-spacing: -.5px;
