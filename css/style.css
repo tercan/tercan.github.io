@@ -363,6 +363,13 @@ input:focus,
     width: 48px;
 }
 
+.site-description {
+    color: #999;
+    font-family: 'Dynalight',cursive;
+    font-size: 32px;
+    line-height: 52px;
+}
+
 
 /* #primary.content-area */
 
