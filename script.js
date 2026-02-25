@@ -21,8 +21,6 @@ const translations = {
     viewOnGitHub: "GitHub'da İncele",
     contactTitle: "İletişim",
     contactText: "Soru, görüş ve önerileriniz için aşağıdaki kanallardan benimle iletişime geçebilirsiniz.",
-    personalSite: "Kişisel Site",
-    companySite: "Kurumsal Site",
     copyright: "Tercan Keskin",
     toggleLanguage: "Dili değiştir",
     toggleTheme: "Temayı değiştir"
@@ -30,12 +28,12 @@ const translations = {
   en: {
     aboutTitle: "Tercan Keskin — A web developer's personal projects",
     aboutDescription: "Hi! I'm Tercan. I've been working in web development, WordPress theme and plugin writing, for many, many years. I enjoy developing practical, privacy-focused tools that make things easier for users.",
-    roleDev: "Software Developer",
+    roleDev: "Web Developer",
     roleWordPress: "WordPress Lover",
     rolePoet: "Poet",
     roleDad: "Dad",
     roleHuman: "Human",
-    personalWebsite: "My Website",
+    personalWebsite: "My Personal Website",
     projectsTitle: "Projects",
     badgeWebTool: "Web Tool",
     badgeWordPress: "WordPress Plugin",
@@ -49,8 +47,6 @@ const translations = {
     viewOnGitHub: "View on GitHub",
     contactTitle: "Contact",
     contactText: "For questions, comments, and suggestions, you can contact me through the following channels.",
-    personalSite: "Personal Site",
-    companySite: "Company Site",
     copyright: "Tercan Keskin",
     toggleLanguage: "Toggle language",
     toggleTheme: "Toggle theme"

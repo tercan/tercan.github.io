@@ -1,10 +1,113 @@
 # tercan.github.io
 
+Static website published on GitHub Pages as Tercan Keskin's personal project showcase.
+
+Turkish version is available below: [Türkçe Sürüm](#turkce-surum).
+
+**Quick Links:** [EN](#en-toc) | [TR](#tr-toc)
+
+<a id="en-toc"></a>
+## Table of Contents (EN)
+
+[Go to TR TOC](#tr-toc)
+
+- [Project Summary](#en-project-summary)
+- [Features](#en-features)
+- [Technology Stack](#en-tech-stack)
+- [Local Development](#en-local-development)
+- [Deployment](#en-deployment)
+- [Directory Structure](#en-directory-structure)
+- [Changelog](#en-changelog)
+- [Türkçe Sürüm](#turkce-surum)
+
+<a id="en-project-summary"></a>
+## Project Summary
+
+This page highlights the following projects:
+
+- Terkip
+- Telkari
+- Tabibe
+- WP Heading Buttons
+
+The site provides Turkish/English language switching, light/dark theme support, and a mobile-friendly card layout.
+
+<a id="en-features"></a>
+## Features
+
+- Static HTML/CSS/JavaScript architecture
+- EN-TR language support
+- Light/Dark theme toggle
+- Accessibility-focused interactions (focus styles, aria labels)
+- Core SEO setup (`canonical`, Open Graph, Twitter meta, `robots.txt`, `sitemap.xml`)
+
+<a id="en-tech-stack"></a>
+## Technology Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+<a id="en-local-development"></a>
+## Local Development
+
+This project does not require a build step. Run a local HTTP server for testing:
+
+```bash
+cd /Users/tercan/Dev/personal/tercan.github.io
+python3 -m http.server 5500
+```
+
+Then open:
+
+```text
+http://localhost:5500
+```
+
+<a id="en-deployment"></a>
+## Deployment
+
+The project is published via the `main` branch on GitHub Pages.
+
+Example release tagging flow:
+
+```bash
+git tag -a v0.2.0 -m "Release v0.2.0"
+git push origin main
+git push origin v0.2.0
+```
+
+<a id="en-directory-structure"></a>
+## Directory Structure
+
+```text
+.
+├── index.html
+├── styles.css
+├── script.js
+├── robots.txt
+├── sitemap.xml
+├── favicon.png
+├── tercan-keskin.jpg
+├── README.md
+└── CHANGELOG.md
+```
+
+<a id="en-changelog"></a>
+## Changelog
+
+For release notes:
+
+- [CHANGELOG.md](./CHANGELOG.md)
+
+---
+
+<a id="turkce-surum"></a>
+## Türkçe Sürüm
+
 Tercan Keskin'in kişisel proje vitrini olarak hazırlanan, GitHub Pages üzerinde yayınlanan statik web sitesi.
 
-English version is available below: [English Version](#english-version).
-
-**Quick Links:** [TR](#tr-toc) | [EN](#en-toc)
+[EN TOC'ye geç](#en-toc)
 
 <a id="tr-toc"></a>
 ## İçindekiler (TR)
@@ -18,7 +121,6 @@ English version is available below: [English Version](#english-version).
 - [Yayınlama](#tr-deployment)
 - [Dizin Yapısı](#tr-directory-structure)
 - [Sürüm Geçmişi](#tr-changelog)
-- [English Version](#english-version)
 
 <a id="tr-project-summary"></a>
 ## Proje Özeti
@@ -97,104 +199,5 @@ git push origin v0.2.0
 ## Sürüm Geçmişi
 
 Sürüm notları için:
-
-- [CHANGELOG.md](./CHANGELOG.md)
-
----
-
-<a id="en-toc"></a>
-## English Version
-
-Static website published on GitHub Pages as Tercan Keskin's personal project showcase.
-
-[Go to TR TOC](#tr-toc)
-
-### Table of Contents (EN)
-
-- [Project Summary](#en-project-summary)
-- [Features](#en-features)
-- [Technology Stack](#en-tech-stack)
-- [Local Development](#en-local-development)
-- [Deployment](#en-deployment)
-- [Directory Structure](#en-directory-structure)
-- [Changelog](#en-changelog)
-
-<a id="en-project-summary"></a>
-### Project Summary
-
-This page highlights the following projects:
-
-- Terkip
-- Telkari
-- Tabibe
-- WP Heading Buttons
-
-The site provides Turkish/English language switching, light/dark theme support, and a mobile-friendly card layout.
-
-<a id="en-features"></a>
-### Features
-
-- Static HTML/CSS/JavaScript architecture
-- EN-TR language support
-- Light/Dark theme toggle
-- Accessibility-focused interactions (focus styles, aria labels)
-- Core SEO setup (`canonical`, Open Graph, Twitter meta, `robots.txt`, `sitemap.xml`)
-
-<a id="en-tech-stack"></a>
-### Technology Stack
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-<a id="en-local-development"></a>
-### Local Development
-
-This project does not require a build step. Run a local HTTP server for testing:
-
-```bash
-cd /Users/tercan/Dev/personal/tercan.github.io
-python3 -m http.server 5500
-```
-
-Then open:
-
-```text
-http://localhost:5500
-```
-
-<a id="en-deployment"></a>
-### Deployment
-
-The project is published via the `main` branch on GitHub Pages.
-
-Example release tagging flow:
-
-```bash
-git tag -a v0.2.0 -m "Release v0.2.0"
-git push origin main
-git push origin v0.2.0
-```
-
-<a id="en-directory-structure"></a>
-### Directory Structure
-
-```text
-.
-├── index.html
-├── styles.css
-├── script.js
-├── robots.txt
-├── sitemap.xml
-├── favicon.png
-├── tercan-keskin.jpg
-├── README.md
-└── CHANGELOG.md
-```
-
-<a id="en-changelog"></a>
-### Changelog
-
-For release notes:
 
 - [CHANGELOG.md](./CHANGELOG.md)
