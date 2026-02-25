@@ -1,0 +1,78 @@
+{
+  "a11y": {
+    "skip-to-content": "Skip to main content"
+  },
+  "brand": {
+    "kicker": "Personal Project Home",
+    "title": "Tercan Keskin"
+  },
+  "navigation": {
+    "primary-label": "Primary navigation",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "controls": {
+    "group-label": "Display controls",
+    "language-label": "Language selection",
+    "switch-dark": "Switch to dark mode",
+    "switch-light": "Switch to light mode"
+  },
+  "hero": {
+    "title": "My projects: verified content, clear technology overview.",
+    "description": "All project cards on this page are prepared with verified information from their README documentation.",
+    "cta": "Explore projects",
+    "summary-title": "Quick Overview",
+    "summary-projects-label": "Featured projects",
+    "summary-languages-label": "Language support",
+    "summary-languages-value": "Turkish / English",
+    "summary-themes-label": "Theme support",
+    "summary-themes-value": "Light / Dark"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "Each card includes project definition, purpose, key highlights, technology stack, and links.",
+    "type-label": "Type",
+    "what-label": "Project definition",
+    "purpose-label": "Project purpose",
+    "highlights-label": "Highlights",
+    "tech-label": "Technologies",
+    "view-project": "Open project",
+    "view-source": "Open source",
+    "link-unavailable": "Link unavailable",
+    "fallback-name": "Untitled project",
+    "fallback-type": "Type unavailable",
+    "fallback-description": "Project definition is unavailable.",
+    "fallback-purpose": "Project purpose is unavailable.",
+    "fallback-highlight": "Highlight is unavailable.",
+    "fallback-technology": "Technology info unavailable"
+  },
+  "states": {
+    "loading": {
+      "title": "Loading projects",
+      "description": "Preparing card content."
+    },
+    "empty": {
+      "title": "No projects available",
+      "description": "The project dataset appears to be empty right now.",
+      "action": "Try again"
+    },
+    "error": {
+      "title": "Failed to load project data",
+      "description": "A connection or file access issue occurred.",
+      "action": "Reload"
+    },
+    "fallback": {
+      "title": "Local fallback data is active",
+      "description": "You opened this page via file://, so embedded fallback content is shown."
+    }
+  },
+  "about": {
+    "title": "GitHub Profile",
+    "description": "Visit my GitHub profile to explore all repositories and new experimental work.",
+    "cta": "View all repositories"
+  },
+  "footer": {
+    "copy": "{{year}} Tercan Keskin. All rights reserved.",
+    "github": "GitHub profile"
+  }
+}

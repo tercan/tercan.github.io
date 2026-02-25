@@ -1,0 +1,166 @@
+{
+  "projects": [
+    {
+      "id": "terkip",
+      "name": {
+        "tr": "Terkip",
+        "en": "Terkip"
+      },
+      "type": {
+        "tr": "Next.js web uygulaması",
+        "en": "Next.js web application"
+      },
+      "description": {
+        "tr": "Gizlilik odaklı, hızlı ve hepsi bir arada kullanışlı web araçları koleksiyonu sunan modern bir Next.js uygulaması.",
+        "en": "A modern Next.js application that provides a privacy-focused, fast, all-in-one collection of practical web tools."
+      },
+      "purpose": {
+        "tr": "Günlük iş akışında sık kullanılan araçları tek bir çatı altında toplayarak geliştirme ve içerik üretim süreçlerini hızlandırmak.",
+        "en": "To gather frequently used workflow tools in a single place and accelerate development and content creation processes."
+      },
+      "highlights": {
+        "tr": [
+          "Slug, JSON Formatter, Regex Tester, QR Code Generator ve Diff Checker dahil geniş araç seti.",
+          "Türkçe/İngilizce tam lokalizasyon, URL yapısı dahil çoklu dil desteği.",
+          "PWA desteği, favoriler, kullanım istatistikleri ve admin paneli özellikleri."
+        ],
+        "en": [
+          "Broad toolset including Slug, JSON Formatter, Regex Tester, QR Code Generator, and Diff Checker.",
+          "Full Turkish/English localization including localized URL structures.",
+          "PWA support, favorites, usage stats, and admin panel capabilities."
+        ]
+      },
+      "technologies": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "next-intl",
+        "PostgreSQL",
+        "Prisma 7"
+      ],
+      "url": "https://www.terkip.net",
+      "source": "https://github.com/tercan/terkip"
+    },
+    {
+      "id": "telkari",
+      "name": {
+        "tr": "Telkari",
+        "en": "Telkari"
+      },
+      "type": {
+        "tr": "WordPress eklentisi",
+        "en": "WordPress plugin"
+      },
+      "description": {
+        "tr": "Tema bağımsız sosyal medya bağlantıları yönetimi sağlayan, çoklu tasarım şablonlarına sahip bir WordPress eklentisi.",
+        "en": "A theme-independent WordPress plugin for managing social media links with multiple built-in design layouts."
+      },
+      "purpose": {
+        "tr": "Sosyal medya hesaplarını site üzerinde esnek konumlandırma, platform bazlı renk yönetimi ve düzenli bir yönetim paneli ile sunmak.",
+        "en": "To present social accounts on-site with flexible positioning, per-platform color control, and a structured admin workflow."
+      },
+      "highlights": {
+        "tr": [
+          "Orbit, Ribbon ve Pillar olmak üzere üç tasarım şablonu ve şablona bağlı konum sistemi.",
+          "13 platform için gömülü SVG ikon seti; CDN bağımlılığı yok.",
+          "Sürükle-bırak sıralama, hesap etkinleştirme ve URL doğrulama içeren yönetim ekranı."
+        ],
+        "en": [
+          "Three layouts (Orbit, Ribbon, Pillar) with design-specific position options.",
+          "Bundled SVG icon set for 13 platforms with no CDN dependency.",
+          "Admin workflow with drag-and-drop ordering, account toggles, and URL validation."
+        ]
+      },
+      "technologies": [
+        "PHP",
+        "WordPress",
+        "Vanilla JavaScript",
+        "CSS",
+        "SortableJS"
+      ],
+      "url": "https://tercan.github.io/telkari",
+      "source": "https://github.com/tercan/telkari"
+    },
+    {
+      "id": "tabibe",
+      "name": {
+        "tr": "Tabibe",
+        "en": "Tabibe"
+      },
+      "type": {
+        "tr": "Chromium yeni sekme eklentisi",
+        "en": "Chromium new tab extension"
+      },
+      "description": {
+        "tr": "Chromium tabanlı tarayıcılarda yeni sekme açılış deneyimini modern, minimalist ve yüksek performanslı bir üretkenlik alanına dönüştüren eklenti.",
+        "en": "An extension that turns the new tab experience in Chromium-based browsers into a modern, minimalist, high-performance productivity space."
+      },
+      "purpose": {
+        "tr": "Yeni sekmeyi kişisel kontrol merkezi haline getirerek hızlı erişim, not alma ve arama akışlarını tek bir ekranda toplamak.",
+        "en": "To convert the new tab into a personal control hub by combining quick access, note taking, and search workflows in one screen."
+      },
+      "highlights": {
+        "tr": [
+          "Saat/tarih, speed dial ızgarası, not paneli ve çoklu arama motoru desteği.",
+          "Sürükle-bırak ile site sıralama ve klasörleme, light/dark tema desteği.",
+          "Arka plan özelleştirme, favicon/simple icons modu, JSON yedekleme ve geri yükleme."
+        ],
+        "en": [
+          "Clock/date widget, speed dial grid, notes panel, and multi-engine search support.",
+          "Drag-and-drop ordering/foldering and full light/dark theme support.",
+          "Background customization, favicon/simple icons mode, and JSON backup/restore."
+        ]
+      },
+      "technologies": [
+        "React",
+        "Vite",
+        "Vanilla CSS",
+        "Chrome Extension Manifest V3",
+        "chrome.storage.local"
+      ],
+      "url": "https://tercan.github.io/tabibe",
+      "source": "https://github.com/tercan/tabibe"
+    },
+    {
+      "id": "wp-heading-buttons",
+      "name": {
+        "tr": "WP Heading Buttons",
+        "en": "WP Heading Buttons"
+      },
+      "type": {
+        "tr": "WordPress düzenleyici eklentisi",
+        "en": "WordPress editor plugin"
+      },
+      "description": {
+        "tr": "WordPress Classic Editor (TinyMCE) ve Gutenberg araç çubuklarına tek tıklamalı H1-H6 başlık butonları ekleyen eklenti.",
+        "en": "A plugin that adds one-click H1-H6 heading buttons to WordPress Classic Editor (TinyMCE) and Gutenberg toolbars."
+      },
+      "purpose": {
+        "tr": "Başlık seviyeleri arasında hızlı geçiş sağlayarak yazım sürecini hızlandırmak ve editör deneyiminde tutarlılık sağlamak.",
+        "en": "To speed up writing workflows and keep heading formatting consistent with quick heading-level access."
+      },
+      "highlights": {
+        "tr": [
+          "Classic Editor ve Block Editor için başlık buton desteği.",
+          "Ayar ekranından görünür başlık seviyelerini seçme imkanı.",
+          "Gutenberg içindeki Classic Block için isteğe bağlı başlık buton desteği."
+        ],
+        "en": [
+          "Heading buttons for both Classic Editor and Block Editor workflows.",
+          "Settings page to choose which heading levels are visible.",
+          "Optional heading buttons inside the Classic block in Gutenberg."
+        ]
+      },
+      "technologies": [
+        "PHP",
+        "WordPress",
+        "JavaScript",
+        "TinyMCE",
+        "Gutenberg",
+        "CSS"
+      ],
+      "url": "https://github.com/tercan/wp-heading-buttons",
+      "source": "https://github.com/tercan/wp-heading-buttons"
+    }
+  ]
+}

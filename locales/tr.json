@@ -1,0 +1,78 @@
+{
+  "a11y": {
+    "skip-to-content": "Ana içeriğe geç"
+  },
+  "brand": {
+    "kicker": "Personal Project Home",
+    "title": "Tercan Keskin"
+  },
+  "navigation": {
+    "primary-label": "Ana gezinme",
+    "projects": "Projeler",
+    "about": "Hakkında"
+  },
+  "controls": {
+    "group-label": "Görünüm kontrolleri",
+    "language-label": "Dil seçimi",
+    "switch-dark": "Koyu moda geç",
+    "switch-light": "Açık moda geç"
+  },
+  "hero": {
+    "title": "Projelerim: doğrulanmış içerik, net teknoloji özeti.",
+    "description": "Bu sayfadaki tüm proje kartları, ilgili README dokümanlarından doğrulanmış bilgilerle hazırlanmıştır.",
+    "cta": "Projeleri incele",
+    "summary-title": "Hızlı Bakış",
+    "summary-projects-label": "Öne çıkan proje",
+    "summary-languages-label": "Dil desteği",
+    "summary-languages-value": "Türkçe / English",
+    "summary-themes-label": "Tema desteği",
+    "summary-themes-value": "Açık / Koyu"
+  },
+  "projects": {
+    "title": "Öne Çıkan Projeler",
+    "description": "Her kartta proje tanımı, amacı, öne çıkan özellikler, teknoloji seti ve bağlantılar yer alır.",
+    "type-label": "Tür",
+    "what-label": "Proje tanımı",
+    "purpose-label": "Proje amacı",
+    "highlights-label": "Öne çıkanlar",
+    "tech-label": "Teknolojiler",
+    "view-project": "Projeyi aç",
+    "view-source": "Kaynağı aç",
+    "link-unavailable": "Bağlantı mevcut değil",
+    "fallback-name": "İsimsiz proje",
+    "fallback-type": "Tür bilgisi yok",
+    "fallback-description": "Proje tanımı bulunamadı.",
+    "fallback-purpose": "Proje amacı bulunamadı.",
+    "fallback-highlight": "Öne çıkan bilgi bulunamadı.",
+    "fallback-technology": "Teknoloji bilgisi yok"
+  },
+  "states": {
+    "loading": {
+      "title": "Projeler yükleniyor",
+      "description": "Kart içerikleri hazırlanıyor."
+    },
+    "empty": {
+      "title": "Listelenecek proje bulunamadı",
+      "description": "Proje veri kümesi şu anda boş görünüyor.",
+      "action": "Yeniden dene"
+    },
+    "error": {
+      "title": "Proje verisi alınamadı",
+      "description": "Bağlantı veya dosya erişimi kaynaklı bir sorun oluştu.",
+      "action": "Tekrar yükle"
+    },
+    "fallback": {
+      "title": "Yerel yedek veri kullanılıyor",
+      "description": "Dosyayı doğrudan açtığınız için (file://), gömülü yedek içerik gösteriliyor."
+    }
+  },
+  "about": {
+    "title": "GitHub Profili",
+    "description": "Tüm depolar ve yeni deneysel çalışmalar için GitHub profilimi ziyaret edebilirsiniz.",
+    "cta": "Tüm depoları görüntüle"
+  },
+  "footer": {
+    "copy": "{{year}} Tercan Keskin. Tüm hakları saklıdır.",
+    "github": "GitHub profili"
+  }
+}
