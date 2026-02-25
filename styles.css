@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #2563eb;
-  --color-primary-hover: #1d4ed8;
+  --color-primary: #003999;
+  --color-primary-hover: #003388;
   --color-secondary: #64748b;
   --color-text: #1e293b;
   --color-text-muted: #64748b;
@@ -31,7 +31,7 @@
   --space-2xl: 3rem;
   --space-3xl: 4rem;
 
-  --border-radius: 0.25rem;
+  --border-radius: 0.125rem;
   --border-width: 1px;
   --border-color: var(--color-border);
 
@@ -47,15 +47,13 @@
 }
 
 [data-theme="dark"] {
-  --color-primary: #3b82f6;
-  --color-primary-hover: #60a5fa;
-  --color-secondary: #94a3b8;
-  --color-text: #f1f5f9;
-  --color-text-muted: #94a3b8;
-  --color-border: #334155;
-  --color-background: #0f172a;
-  --color-surface: #1e293b;
-  --color-surface-hover: #334155;
+  --color-secondary: #8b9ab8;
+  --color-text: #e2e8f0;
+  --color-text-muted: #8b9ab8;
+  --color-border: #2d3a4d;
+  --color-background: #10151d;
+  --color-surface: #171f2b;
+  --color-surface-hover: #212b38;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
@@ -240,7 +238,7 @@ body {
 
 .about-titles li {
   padding: var(--space-sm) var(--space-md);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-text);
   background-color: var(--color-surface);
@@ -364,7 +362,7 @@ body {
   padding: var(--space-xs) var(--space-sm);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
-  color: var(--color-primary);
+  color: var(--color-text-muted);
   background-color: var(--color-background);
   border-radius: var(--border-radius);
 }
@@ -450,7 +448,7 @@ body {
 }
 
 [data-theme="dark"] .btn-secondary::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f1f5f9' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e2e8f0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
 }
 
 .btn:focus-visible {
@@ -507,13 +505,14 @@ body {
 }
 
 .contact-link {
+  aspect-ratio: 1 / 1;
   display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
   padding: var(--space-sm) var(--space-md);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  color: var(--color-text);
+  color: var(--color-text-muted);
   text-decoration: none;
   background-color: var(--color-surface);
   border: var(--border-width) solid var(--color-border);
@@ -523,13 +522,18 @@ body {
 
 .contact-link:hover {
   background-color: var(--color-surface-hover);
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: var(--color-text);
+  color: var(--color-text);
 }
 
 .contact-link:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+}
+
+.contact-link svg {
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 .footer {

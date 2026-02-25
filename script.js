@@ -1,11 +1,12 @@
 const translations = {
   tr: {
-    aboutTitle: "Tercan Keskin",
+    aboutTitle: "Tercan Keskin — Bir web geliştiricisinin kişisel projeleri",
     aboutDescription: "Merhaba! Ben Tercan. Uzun yıllardır web geliştirme, WordPress tema ve eklenti yazarlığı gibi konular üzerine çalışıyorum. Kullanıcıların işlerini kolaylaştıran, pratik ve gizlilik odaklı araçlar geliştirmeyi seviyorum.",
     roleDev: "Web Geliştirici",
-    roleWordPress: "WordPress Aşığı",
+    roleWordPress: "WordPress Sever",
     rolePoet: "Şair",
     roleDad: "Baba",
+    roleHuman: "İnsan",
     personalWebsite: "Kişisel Web Sitem",
     projectsTitle: "Projeler",
     badgeWebTool: "Web Aracı",
@@ -15,9 +16,9 @@ const translations = {
     telkariDesc: "Tema bağımsız WordPress sosyal medya bağlantıları yönetim eklentisi. 3 farklı tasarım şablonu, sürükle-bırak sıralama ve 13 platform desteği.",
     tabibeDesc: "Her yeni sekmeyi kişisel bir verimlilik merkezine dönüştüren modern, minimalist Chrome uzantısı. Hızlı erişim ızgarası, çoklu arama motoru ve 10 dil desteği.",
     wpHeadingDesc: "WordPress Classic Editor ve Gutenberg (Block Editor) için tek tıklama ile başlık düğmeleri (H1-H6) ekleyen eklenti.",
-    visitSite: "Siteyi Ziyaret",
+    visitSite: "Siteyi Ziyaret Et",
     viewProject: "Projeyi Görüntüle",
-    viewOnGitHub: "GitHub",
+    viewOnGitHub: "GitHub'da İncele",
     contactTitle: "İletişim",
     contactText: "Soru, görüş ve önerileriniz için aşağıdaki kanallardan benimle iletişime geçebilirsiniz.",
     personalSite: "Kişisel Site",
@@ -27,12 +28,13 @@ const translations = {
     toggleTheme: "Temayı değiştir"
   },
   en: {
-    aboutTitle: "Tercan Keskin",
+    aboutTitle: "Tercan Keskin — A web developer's personal projects",
     aboutDescription: "Hi! I'm Tercan. I've been working in web development, WordPress theme and plugin writing, for many, many years. I enjoy developing practical, privacy-focused tools that make things easier for users.",
     roleDev: "Software Developer",
     roleWordPress: "WordPress Lover",
     rolePoet: "Poet",
     roleDad: "Dad",
+    roleHuman: "Human",
     personalWebsite: "My Website",
     projectsTitle: "Projects",
     badgeWebTool: "Web Tool",
@@ -44,7 +46,7 @@ const translations = {
     wpHeadingDesc: "Add one-click heading buttons (H1-H6) to the WordPress Classic Editor and Gutenberg (Block Editor).",
     visitSite: "Visit Site",
     viewProject: "View Project",
-    viewOnGitHub: "GitHub",
+    viewOnGitHub: "View on GitHub",
     contactTitle: "Contact",
     contactText: "For questions, comments, and suggestions, you can contact me through the following channels.",
     personalSite: "Personal Site",
@@ -69,6 +71,7 @@ function setTheme(theme) {
 }
 
 function setLang(lang) {
+  document.documentElement.setAttribute("lang", lang);
   document.documentElement.setAttribute("data-lang", lang);
   localStorage.setItem("lang", lang);
   updateTranslations();
